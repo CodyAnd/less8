@@ -38,7 +38,7 @@
       when: inventory_hostname == 'test1'
 
     - name: Copy the file from master to prod
-      copy: src=buffer/hello-1.0.war dest=/tmp/
+      copy: src=buffer/hello-1.0.war dest=/var/lib/tomcat9/webapps/
       when: inventory_hostname == 'prod1'
 
 - name: Install tomcat
