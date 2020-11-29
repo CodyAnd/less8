@@ -1,0 +1,4 @@
+[build]
+build1 ansible_ssh_host=10.129.0.18
+[prod]
+prod1 ansible_ssh_host=10.129.0.32
